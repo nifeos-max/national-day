@@ -29,7 +29,7 @@
   <header>
     <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="علم المملكة العربية السعودية"/>
     <h1>عزّنا بفخرِنا</h1>
-    <p class="lead">نبذات موسّعة عن شخصيات سعودية بارزة</p>
+    <p class="lead"> شخصيات سعودية بارزة</p>
   </header>
 
   <div class="container">
