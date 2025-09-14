@@ -16,14 +16,13 @@
     h1{margin:0;font-size:38px}
     p.lead{margin:6px 0 0 0;color:#cfe9dc}
     .container{max-width:900px;margin:auto;padding:20px}
-    .accordion{background:var(--card);border:1px solid var(--edge);border-radius:12px;margin-bottom:12px;overflow:hidden}
-    .accordion-header{padding:14px 18px;cursor:pointer;position:relative;font-weight:bold}
-    .accordion-header:hover{background:#0b4421}
-    .accordion-header::after{content:"＋";position:absolute;left:18px;font-weight:bold}
-    .accordion-header.active::after{content:"－"}
-    .accordion-content{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 18px}
-    .accordion-content.open{padding:14px 18px}
-    .accordion-content p{margin:0}
+    .card{background:var(--card);border:1px solid var(--edge);border-radius:12px;margin-bottom:16px;padding:18px;transition:.2s}
+    .card:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,.3)}
+    .pill{display:inline-block;background:#0c3b23;color:#c6f5df;border:1px solid #135b36;
+      border-radius:999px;padding:3px 10px;font-size:12px}
+    .title{font-size:20px;margin:8px 0 4px 0}
+    .meta{font-size:13px;color:#cfe9dc;margin-bottom:8px}
+    .story{white-space:pre-line}
     footer{margin-top:28px;text-align:center;font-size:12px;color:#cbead9}
   </style>
 </head>
@@ -31,110 +30,110 @@
   <header>
     <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="علم المملكة العربية السعودية"/>
     <h1>عزّنا بفخرِنا</h1>
-    <p class="lead">قصص وبطولات عن شخصيات سعودية بارزة</p>
+    <p class="lead">نبذات موسّعة عن شخصيات سعودية بارزة</p>
   </header>
 
   <div class="container">
 
     <!-- محمد بن سلمان -->
-    <div class="accordion">
-      <div class="accordion-header">محمد بن سلمان بن عبدالعزيز — ولي العهد</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">ولي العهد</span>
+      <h3 class="title">محمد بن سلمان بن عبدالعزيز</h3>
+      <div class="meta">مهندس التحول الوطني</div>
+      <p class="story">
 الأمير محمد بن سلمان هو ولي العهد ورئيس مجلس الوزراء السعودي، وُلد عام 1985. يقود مشروع التحول الوطني «رؤية 2030» التي تهدف إلى تنويع الاقتصاد وتطوير التعليم والصحة والسياحة والترفيه.
 أطلق مشروعات عملاقة مثل مدينة «نيوم» ومشروعات البحر الأحمر، وأسّس برامج لتمكين الشباب والمرأة. عُرف بأسلوبه الحازم في الإصلاح الاقتصادي والاجتماعي، وجعل المملكة مركزًا عالميًا للاستثمار والطاقة المتجددة.
-        </p>
-      </div>
+      </p>
     </div>
 
     <!-- الملك سلمان -->
-    <div class="accordion">
-      <div class="accordion-header">الملك سلمان بن عبدالعزيز — خادم الحرمين الشريفين</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">خادم الحرمين</span>
+      <h3 class="title">الملك سلمان بن عبدالعزيز</h3>
+      <div class="meta">ملك الحزم والعزم</div>
+      <p class="story">
 الملك سلمان وُلد عام 1935 وتولّى الحكم في 2015. قبل الملك كان أميرًا للرياض لأكثر من 50 عامًا، شهدت خلالها العاصمة قفزات عمرانية واقتصادية كبرى. 
 في عهده الملكي تمّت رعاية الحرمين بتوسعات ضخمة، وأُطلقت إصلاحات إدارية وتشريعية واسعة. عُرف بمتابعته الدقيقة لشؤون الدولة وبُعد نظره في القضايا الإقليمية والدولية.
-        </p>
-      </div>
+      </p>
     </div>
 
     <!-- د. عبدالله الربيعة -->
-    <div class="accordion">
-      <div class="accordion-header">الدكتور عبدالله الربيعة — الطب الإنساني</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">الطب الإنساني</span>
+      <h3 class="title">الدكتور عبدالله الربيعة</h3>
+      <div class="meta">رائد فصل التوائم السيامية</div>
+      <p class="story">
 يُعد د. عبدالله الربيعة من أبرز الأطباء في العالم بمجال جراحة الأطفال وفصل التوائم السيامية. وُلد عام 1955 في الرياض، وبدأ مسيرته الطبية في كندا.
 قاد فريقًا طبيًا سعوديًا لفصل أكثر من 50 حالة توائم سيامية من دول مختلفة، لتصبح المملكة مرجعًا عالميًا في هذا التخصص. 
 يشغل منصب المشرف العام على مركز الملك سلمان للإغاثة والأعمال الإنسانية، ويقدّم الدعم الطبي والإنساني للدول المتضررة حول العالم.
-        </p>
-      </div>
+      </p>
     </div>
 
     <!-- عادل الجبير -->
-    <div class="accordion">
-      <div class="accordion-header">عادل الجبير — الدبلوماسية السعودية</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">الدبلوماسية</span>
+      <h3 class="title">عادل الجبير</h3>
+      <div class="meta">صوت المملكة في المحافل الدولية</div>
+      <p class="story">
 عادل الجبير من أبرز الوجوه الدبلوماسية السعودية. وُلد عام 1962 وتقلّد منصب وزير الخارجية (2015-2018)، وكان قبلها سفير المملكة في واشنطن.
 تميّز بقدراته الخطابية والإعلامية، ودافع عن مواقف المملكة في المحافل الدولية، خصوصًا خلال فترات حساسة. ساهم في تعزيز العلاقات الدولية وإبراز صورة السعودية الحديثة أمام العالم.
-        </p>
-      </div>
+      </p>
     </div>
 
     <!-- غازي القصيبي -->
-    <div class="accordion">
-      <div class="accordion-header">غازي القصيبي — الأديب الوزير</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">الأدب والإدارة</span>
+      <h3 class="title">غازي القصيبي</h3>
+      <div class="meta">الأديب الوزير</div>
+      <p class="story">
 غازي القصيبي (1940-2010) شخصية استثنائية جمعت بين الأدب والسياسة والإدارة. تقلّد مناصب وزارية مهمة مثل الصحة والعمل، وكان سفيرًا للمملكة في البحرين وبريطانيا.
 أصدر روايات ودواوين شعرية أثرت المكتبة العربية مثل «شقة الحرية» و«الوزير المرافق». ترك إرثًا أدبيًا وفكريًا، إضافة إلى بصماته في الإصلاح الإداري وتطوير الموارد البشرية في المملكة.
-        </p>
-      </div>
+      </p>
     </div>
 
     <!-- الأميرة ريما -->
-    <div class="accordion">
-      <div class="accordion-header">الأميرة ريما بنت بندر — التمكين النسائي</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">التمكين</span>
+      <h3 class="title">الأميرة ريما بنت بندر</h3>
+      <div class="meta">رائدة الدبلوماسية النسائية</div>
+      <p class="story">
 الأميرة ريما بنت بندر بن سلطان، وُلدت عام 1975، وتُعتبر من أبرز الشخصيات النسائية في المملكة. تولّت منصب سفيرة السعودية في واشنطن عام 2019، كأول امرأة سعودية في هذا المنصب.
 عملت سابقًا في مجالات الرياضة والتمكين الاجتماعي، وأسهمت في دعم مشاركة المرأة في الأنشطة العامة. أصبحت رمزًا لمرحلة جديدة تعكس مكانة المرأة السعودية ودورها في المجتمع والدبلوماسية.
-        </p>
-      </div>
+      </p>
     </div>
 
     <!-- سلطان بن سلمان -->
-    <div class="accordion">
-      <div class="accordion-header">الأمير سلطان بن سلمان — أول رائد فضاء عربي</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">الفضاء</span>
+      <h3 class="title">الأمير سلطان بن سلمان</h3>
+      <div class="meta">أول رائد فضاء عربي مسلم</div>
+      <p class="story">
 الأمير سلطان بن سلمان بن عبدالعزيز وُلد عام 1956. في يونيو 1985 شارك في رحلة مكوك الفضاء ديسكفري التابعة لناسا، ليصبح أول عربي ومسلم يصعد إلى الفضاء.
 بعد عودته، ساهم في تطوير السياحة والتراث الوطني من خلال رئاسته لهيئة السياحة والآثار. يشغل اليوم أدوارًا استشارية في مشروعات استراتيجية، ويمثل مصدر إلهام للأجيال.
-        </p>
-      </div>
+      </p>
     </div>
 
     <!-- سالم الدوسري -->
-    <div class="accordion">
-      <div class="accordion-header">سالم الدوسري — نجم الأخضر</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">الرياضة</span>
+      <h3 class="title">سالم الدوسري</h3>
+      <div class="meta">نجم الأخضر</div>
+      <p class="story">
 سالم الدوسري (مواليد 1991) من أبرز لاعبي كرة القدم السعوديين. يلعب في مركز الجناح مع نادي الهلال والمنتخب الوطني. 
 أحرز هدف الفوز التاريخي ضد الأرجنتين في كأس العالم 2022، في مباراة ستبقى في الذاكرة الرياضية العالمية. 
 ساهم في إنجازات نادي الهلال الآسيوية والمحلية، ويُعتبر رمزًا لجيل رياضي سعودي طموح.
-        </p>
-      </div>
+      </p>
     </div>
 
     <!-- ريانة برناوي -->
-    <div class="accordion">
-      <div class="accordion-header">ريانة برناوي — أول سعودية في الفضاء</div>
-      <div class="accordion-content">
-        <p>
+    <div class="card">
+      <span class="pill">الفضاء</span>
+      <h3 class="title">ريانة برناوي</h3>
+      <div class="meta">أول سعودية في الفضاء</div>
+      <p class="story">
 ريانة برناوي (مواليد 1988) باحثة سعودية متخصصة في العلوم الحيوية. في 21 مايو 2023 انطلقت إلى محطة الفضاء الدولية ضمن مهمة Axiom-2، لتصبح أول سعودية في الفضاء.
 أجرت تجارب متقدمة في بيئة الجاذبية الصغرى على الخلايا والأنسجة، وأسهمت في إلهام الشباب السعودي لدخول مجالات الفضاء والبحث العلمي.
-        </p>
-      </div>
+      </p>
     </div>
 
   </div>
@@ -142,22 +141,5 @@
   <footer>
     © إعداد وطني تعليمي — نبذات موسّعة عن شخصيات سعودية بارزة
   </footer>
-
-  <script>
-    const headers = document.querySelectorAll(".accordion-header");
-    headers.forEach(h=>{
-      h.addEventListener("click", ()=>{
-        h.classList.toggle("active");
-        const content = h.nextElementSibling;
-        if(content.style.maxHeight){
-          content.style.maxHeight = null;
-          content.classList.remove("open");
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-          content.classList.add("open");
-        }
-      });
-    });
-  </script>
 </body>
 </html>
