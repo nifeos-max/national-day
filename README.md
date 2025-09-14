@@ -1,122 +1,140 @@
-<!DOCTYPE html>
-<html lang="ar">
+<!doctype html>
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>عزنا بفخرنا - اليوم الوطني السعودي</title>
-    <style>
-        body {
-            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #ffffff;
-            color: #006c35; /* اللون الأخضر المعتمد */
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        header {
-            background-color: #006c35;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 3em;
-            margin: 0;
-            font-weight: bold;
-        }
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        ul.heroes {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        ul.heroes li {
-            margin-bottom: 20px;
-        }
-        .hero-name {
-            font-weight: bold;
-            font-size: 1.2em;
-            color: #004f25;
-        }
-        footer {
-            margin-top: 40px;
-            border-top: 1px solid #ccc;
-            padding: 20px;
-            text-align: center;
-            font-size: 0.9em;
-        }
-        footer a {
-            color: #006c35;
-            text-decoration: none;
-        }
-    </style>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>عزّنا بفخرِنا — قصص بطولية سعودية</title>
+  <style>
+    :root{
+      --green:#006c35; --dark:#034a24; --light:#f5fff9; --card:#07391c; --edge:#0e3b22;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;padding:0;background:linear-gradient(180deg,#022010,#034a24);color:var(--light);
+      font-family:"Noto Naskh Arabic","Amiri",Tahoma,Arial,sans-serif;line-height:1.9}
+    a{color:#9ff7c9;text-decoration:none}
+    header{padding:20px;text-align:center;border-bottom:2px solid var(--dark)}
+    .flag{width:200px;margin:auto 0 12px 0;display:block}
+    h1{margin:0;font-size:34px;color:var(--light)}
+    p.lead{margin:4px 0 0 0;color:#cfe9dc}
+    .container{max-width:1100px;margin:auto;padding:24px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:20px}
+    .card{background:var(--card);border:1px solid var(--edge);border-radius:16px;padding:16px;transition:.2s}
+    .card:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,.3)}
+    .pill{display:inline-block;background:#0c3b23;color:#c6f5df;border:1px solid #135b36;
+      border-radius:999px;padding:3px 10px;font-size:12px}
+    .title{font-size:20px;margin:8px 0 4px 0}
+    .meta{font-size:13px;color:#cfe9dc;margin-bottom:8px}
+    .story{white-space:pre-line}
+    footer{margin-top:28px;text-align:center;font-size:12px;color:#cbead9}
+  </style>
 </head>
 <body>
-    <header>
-        <h1>عزنا بفخرنا</h1>
-    </header>
-    <main>
-        <p>بمناسبة اليوم الوطني السعودي، نحتفي ببعض من الشخصيات التي جسّدت البطولة والعطاء في خدمة وطنها، وساهمت في بناء الهوية الوطنية.</p>
-        <ul class="heroes">
-            <li>
-                <span class="hero-name">الأمير المؤسس عبدالعزيز بن عبدالرحمن آل سعود</span><br>
-                قصة بطولية: باشر توحيد المملكة في بدايات القرن العشرين، واستطاع استعادة الرياض عام 1902، ومن ثم وحد مناطق الحجاز ونجد، وأسس المملكة العربية السعودية عام 1932.  [oai_citation:0‡ويكيبيديا](https://en.wikipedia.org/wiki/Ibn_Saud?utm_source=chatgpt.com)
-            </li>
-            <li>
-                <span class="hero-name">الملك فيصل بن عبدالعزيز</span><br>
-                قصة بطولية: قام بإصلاحات كبرى، منها القضاء على العبودية، تطوير التعليم، ودعم التعليم للفتيات، وتحديث البنية التحتية، ورفع مكانة المملكة دولياً.  [oai_citation:1‡ويكيبيديا](https://en.wikipedia.org/wiki/Faisal_of_Saudi_Arabia?utm_source=chatgpt.com)
-            </li>
-            <li>
-                <span class="hero-name">الملك خالد بن عبدالعزيز</span><br>
-                قصة بطولية: شهد عهده تطورًا اقتصاديًا كبيرًا، وإقامة مدن صناعية مثل الجبيل وينبع، وتوسيع التعليم والتعليم الثانوي، وتعزيز مكانة المملكة ضمن مجلس التعاون الخليجي.  [oai_citation:2‡ويكيبيديا](https://en.wikipedia.org/wiki/Khalid_of_Saudi_Arabia?utm_source=chatgpt.com)
-            </li>
-            <li>
-                <span class="hero-name">الأستاذ محمد سرور الصبان</span><br>
-                قصة بطولية: سياسي، اقتصادي، شاعر، ناشط ثقافي من منطقة القنفذة. أسّس وأدار صحفًا ومجالس ثقافية، وساهم في نهضة ثقافية في الحجاز ومشاركة فاعلة في العمل الوطني بعد تأسيس المملكة.  [oai_citation:3‡ويكيبيديا](https://en.wikipedia.org/wiki/Mohammed_Suroor_Sabban?utm_source=chatgpt.com)
-            </li>
-            <li>
-                <span class="hero-name">الأستاذ محمد عبدالله مليباري</span><br>
-                قصة بطولية: كاتب ومدوّن صحفي وتنقّدي من مكة المكرّمة؛ من روّاد الصحافة السعودية، أسّس منبرًا رياضيًا، وقدم أفكارًا وإسهامات في الأدب والنقد.  [oai_citation:4‡ويكيبيديا](https://en.wikipedia.org/wiki/Muhammad_Abdullah_Malibari?utm_source=chatgpt.com)
-            </li>
-            <li>
-                <span class="hero-name">الأميرة نورة بنت عبدالرحمن</span><br>
-                قصة بطولية: أخت الملك عبدالعزيز ومستشارة، لعبت دورًا هامًا في بناء الهوية الوطنية، وقلّدت بحكمة ونفوذ طوال فترة توحيد المملكة. اليوم تحمل الجامعة النسائية الكبرى في الرياض اسمها تكريمًا لإرثها.  [oai_citation:5‡ويكيبيديا](https://en.wikipedia.org/wiki/Princess_Nourah_Bint_Abdul_Rahman_University?utm_source=chatgpt.com)
-            </li>
-            <li>
-                <span class="hero-name">وليّ العهد الأمير خالد الفيصل</span><br>
-                قصة بطولية: شاعر، مثقّف، محافظ في عدة مناطق، مؤسّس مهرجانات ثقافية، داعم للفنون والتراث، يسعى لنشر الثقافة والفكر الوطني.  [oai_citation:6‡ويكيبيديا](https://en.wikipedia.org/wiki/Khalid_Al-Faisal?utm_source=chatgpt.com)
-            </li>
-            <!-- مزيد من الشخصيات -->
-            <li>
-                <span class="hero-name">الأميرة بدرية بنت سعود الفيصل</span><br>
-                قصة بطولية: (يمكن إدراج قصة حقيقية معتمدة إذا توفر مصدر موثوق) <!-- placeholder -->
-            </li>
-            <li>
-                <span class="hero-name">الدكتور غازي القصيبي</span><br>
-                قصة بطولية: كاتب، دبلوماسي، وزير؛ ساهم في الثقافة، التنمية البشرية، والأدب، وله مؤلفات تؤرّخ لجوانب مهمة من المجتمع السعودي.  [oai_citation:7‡Tourism Teacher](https://tourismteacher.com/famous-people-from-saudi-arabia/?utm_source=chatgpt.com)
-            </li>
-            <li>
-                <span class="hero-name">سامي الجابر</span><br>
-                قصة بطولية: لاعب كرة قدم سعودي مشهور، ساهم في رفع اسم المملكة عالميًا من خلال مشاركاته الدولية والبطولات، مثال للعز والرياضية.  [oai_citation:8‡Tourism Teacher](https://tourismteacher.com/famous-people-from-saudi-arabia/?utm_source=chatgpt.com)
-            </li>
-        </ul>
-    </main>
-    <footer>
-        <p>المصادر:</p>
-        <ol>
-            <li><a href="https://en.wikipedia.org/wiki/Ibn_Saud">Ibn Saud — Wikipedia</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Faisal_of_Saudi_Arabia">King Faisal — Wikipedia</a></li>
-            <li><a href="https://saudipedia.com/en/article/177/royal-family/kings/khalid-bin-abdulaziz-al-saud">King Khalid bin Abdulaziz — Saudipedia</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Mohammed_Suroor_Sabban">Mohammed Suroor Sabban — Wikipedia</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Muhammad_Abdullah_Malibari">Muhammad Abdullah Malibari — Wikipedia</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Princess_Nourah_Bint_Abdulrahman_University">Princess Nourah bint Abdulrahman — Wikipedia</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/Khalid_Al-Faisal">Khalid Al-Faisal — Wikipedia</a></li>
-            <li><!-- placeholder for بدرية بنت سعود الفيصل --></li>
-            <li><a href="https://tourismteacher.com/famous-people-from-saudi-arabia/">Famous people from Saudi Arabia — TourismTeacher</a></li>
-            <li><a href="https://tourismteacher.com/famous-people-from-saudi-arabia/">Famous people from Saudi Arabia — TourismTeacher</a></li>
-        </ol>
-    </footer>
+  <header>
+    <!-- العلم السعودي بشكله الصحيح -->
+    <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" 
+         alt="علم المملكة العربية السعودية"/>
+    <h1>عزّنا بفخرِنا</h1>
+    <p class="lead">قصص بطولية سعودية من الملوك وشخصيات وطنية بارزة</p>
+  </header>
+
+  <div class="container">
+    <div class="grid">
+
+      <!-- الملك عبدالعزيز -->
+      <article class="card">
+        <span class="pill">المؤسس</span>
+        <h3 class="title">توحيد المملكة (1932)</h3>
+        <div class="meta">الملك عبدالعزيز بن عبدالرحمن آل سعود</div>
+        <p class="story">
+قاد استعادة الرياض عام 1902، ثم وحّد الأقاليم حتى صدر المرسوم الملكي في 23 سبتمبر 1932 بإعلان «المملكة العربية السعودية»، إيذانًا بقيام دولة حديثة.
+        </p>
+      </article>
+
+      <!-- الملك سعود -->
+      <article class="card">
+        <span class="pill">التعليم</span>
+        <h3 class="title">تأسيس جامعة الملك سعود</h3>
+        <div class="meta">الملك سعود بن عبدالعزيز آل سعود</div>
+        <p class="story">
+عام 1957 تأسست أول جامعة وطنية حديثة في الرياض، لتكون منارة لإعداد الكفاءات السعودية.
+        </p>
+      </article>
+
+      <!-- الملك فيصل -->
+      <article class="card">
+        <span class="pill">الحكمة والسياسة</span>
+        <h3 class="title">قرار النفط (1973)</h3>
+        <div class="meta">الملك فيصل بن عبدالعزيز آل سعود</div>
+        <p class="story">
+استخدم النفط كورقة سياسية في أزمة 1973، فغيّر موازين الطاقة العالمية وأبرز ثقل المملكة.
+        </p>
+      </article>
+
+      <!-- الملك خالد -->
+      <article class="card">
+        <span class="pill">التكامل الخليجي</span>
+        <h3 class="title">تأسيس مجلس التعاون</h3>
+        <div class="meta">الملك خالد بن عبدالعزيز آل سعود</div>
+        <p class="story">
+شهد عهده إعلان «مجلس التعاون لدول الخليج العربية» عام 1981، إطارًا للتنسيق والتكامل.
+        </p>
+      </article>
+
+      <!-- الملك فهد -->
+      <article class="card">
+        <span class="pill">التشريع</span>
+        <h3 class="title">النظام الأساسي للحكم</h3>
+        <div class="meta">الملك فهد بن عبدالعزيز آل سعود</div>
+        <p class="story">
+في 1992 صدر «النظام الأساسي للحكم» بالأمر الملكي (أ/90) ليضع إطارًا قانونيًا حديثًا للدولة.
+        </p>
+      </article>
+
+      <!-- الملك عبدالله -->
+      <article class="card">
+        <span class="pill">البحث والعلوم</span>
+        <h3 class="title">افتتاح جامعة كاوست</h3>
+        <div class="meta">الملك عبدالله بن عبدالعزيز آل سعود</div>
+        <p class="story">
+افتُتحت جامعة الملك عبدالله للعلوم والتقنية في 23 سبتمبر 2009، مركزًا عالميًا للأبحاث.
+        </p>
+      </article>
+
+      <!-- الملك سلمان -->
+      <article class="card">
+        <span class="pill">الرؤية المستقبلية</span>
+        <h3 class="title">رؤية 2030</h3>
+        <div class="meta">الملك سلمان بن عبدالعزيز آل سعود</div>
+        <p class="story">
+أطلق عام 2016 «رؤية السعودية 2030» لتنويع الاقتصاد وتعزيز جودة الحياة بمشروعات كبرى.
+        </p>
+      </article>
+
+      <!-- د. عبدالله الربيعة -->
+      <article class="card">
+        <span class="pill">الطب الإنساني</span>
+        <h3 class="title">فصل التوائم السيامية</h3>
+        <div class="meta">د. عبدالله الربيعة</div>
+        <p class="story">
+قاد فرقًا طبية وطنية نجحت في فصل عشرات التوائم السيامية، فأصبحت المملكة مركزًا عالميًا في هذا التخصص.
+        </p>
+      </article>
+
+      <!-- ريانة برناوي -->
+      <article class="card">
+        <span class="pill">الفضاء</span>
+        <h3 class="title">أول سعودية في الفضاء</h3>
+        <div class="meta">ريانة برناوي</div>
+        <p class="story">
+في مايو 2023 أصبحت أول سعودية تصل محطة الفضاء الدولية ضمن مهمة Ax-2، مجسدة طموح الوطن في البحث العلمي.
+        </p>
+      </article>
+
+    </div>
+  </div>
+
+  <footer>
+    © إعداد تعليمي وطني — قصص حقيقية عن شخصيات سعودية بارزة
+  </footer>
 </body>
 </html>
