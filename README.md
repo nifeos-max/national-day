@@ -3,204 +3,161 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>عزّنا بفخرِنا — قصص بطولية سعودية</title>
+  <title>عزّنا بفخرِنا — شخصيات سعودية بارزة</title>
   <style>
     :root{
       --green:#006c35; --dark:#034a24; --light:#f5fff9; --card:#07391c; --edge:#0e3b22;
     }
     *{box-sizing:border-box}
-    body{margin:0;padding:0;background:linear-gradient(180deg,#022010,#034a24);color:var(--light);
-      font-family:"Noto Naskh Arabic","Amiri",Tahoma,Arial,sans-serif;line-height:1.9}
+    body{margin:0;padding:0;background:linear-gradient(180deg,#022010,#034a24);
+      color:var(--light);font-family:"Noto Naskh Arabic","Amiri",Tahoma,Arial,sans-serif;line-height:1.9}
     header{text-align:center;padding:20px 10px;border-bottom:2px solid var(--dark)}
     .flag{width:320px;display:block;margin:0 auto 16px auto}
-    h1{margin:0;font-size:38px;color:var(--light)}
+    h1{margin:0;font-size:38px}
     p.lead{margin:6px 0 0 0;color:#cfe9dc}
-    .container{max-width:1100px;margin:auto;padding:24px}
-    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:20px}
-    .card{background:var(--card);border:1px solid var(--edge);border-radius:16px;padding:16px;transition:.2s}
-    .card:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,.3)}
-    .pill{display:inline-block;background:#0c3b23;color:#c6f5df;border:1px solid #135b36;
-      border-radius:999px;padding:3px 10px;font-size:12px}
-    .title{font-size:20px;margin:8px 0 4px 0}
-    .meta{font-size:13px;color:#cfe9dc;margin-bottom:8px}
-    .story{white-space:pre-line}
-    .sources{margin-top:8px;border-top:1px dashed #135b36;padding-top:6px;font-size:12px}
-    .sources h4{margin:0 0 4px 0;font-size:12px;color:#cfe9dc}
-    .sources ul{margin:0;padding:0 16px}
-    .sources li{margin:4px 0}
+    .container{max-width:900px;margin:auto;padding:20px}
+    .accordion{background:var(--card);border:1px solid var(--edge);border-radius:12px;margin-bottom:12px;overflow:hidden}
+    .accordion-header{padding:14px 18px;cursor:pointer;position:relative;font-weight:bold}
+    .accordion-header:hover{background:#0b4421}
+    .accordion-header::after{content:"＋";position:absolute;left:18px;font-weight:bold}
+    .accordion-header.active::after{content:"－"}
+    .accordion-content{max-height:0;overflow:hidden;transition:max-height .3s ease;padding:0 18px}
+    .accordion-content.open{padding:14px 18px}
+    .accordion-content p{margin:0}
     footer{margin-top:28px;text-align:center;font-size:12px;color:#cbead9}
   </style>
 </head>
 <body>
   <header>
-    <!-- العلم السعودي -->
-    <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" 
-         alt="علم المملكة العربية السعودية"/>
+    <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="علم المملكة العربية السعودية"/>
     <h1>عزّنا بفخرِنا</h1>
-    <p class="lead">قصص بطولية عن شخصيات سعودية بارزة</p>
+    <p class="lead">قصص وبطولات عن شخصيات سعودية بارزة</p>
   </header>
 
   <div class="container">
-    <div class="grid">
 
-      <!-- محمد بن سلمان -->
-      <article class="card">
-        <span class="pill">ولي العهد</span>
-        <h3 class="title">محمد بن سلمان بن عبدالعزيز</h3>
-        <div class="meta">مهندس التحول الوطني</div>
-        <p class="story">
-قاد إطلاق «رؤية السعودية 2030» عام 2016، برنامجًا شاملًا لتنويع الاقتصاد وتطوير المجتمع، ومشروعات كبرى مثل نيوم.
+    <!-- محمد بن سلمان -->
+    <div class="accordion">
+      <div class="accordion-header">محمد بن سلمان بن عبدالعزيز — ولي العهد</div>
+      <div class="accordion-content">
+        <p>
+الأمير محمد بن سلمان هو ولي العهد ورئيس مجلس الوزراء السعودي، وُلد عام 1985. يقود مشروع التحول الوطني «رؤية 2030» التي تهدف إلى تنويع الاقتصاد وتطوير التعليم والصحة والسياحة والترفيه.
+أطلق مشروعات عملاقة مثل مدينة «نيوم» ومشروعات البحر الأحمر، وأسّس برامج لتمكين الشباب والمرأة. عُرف بأسلوبه الحازم في الإصلاح الاقتصادي والاجتماعي، وجعل المملكة مركزًا عالميًا للاستثمار والطاقة المتجددة.
         </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://www.vision2030.gov.sa/">الموقع الرسمي لرؤية 2030</a></li>
-            <li><a target="_blank" href="https://www.britannica.com/biography/Mohammed-bin-Salman">Britannica — Mohammed bin Salman</a></li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- الملك سلمان -->
-      <article class="card">
-        <span class="pill">خادم الحرمين</span>
-        <h3 class="title">الملك سلمان بن عبدالعزيز</h3>
-        <div class="meta">ملك الحزم والعزم</div>
-        <p class="story">
-تولى الحكم عام 2015، وقاد المملكة بخطى راسخة في التنمية والسياسة. دعم البنية التحتية، وأشرف على رعاية الحرمين الشريفين.
-        </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://www.britannica.com/biography/Salman-king-of-Saudi-Arabia">Britannica — King Salman</a></li>
-            <li><a target="_blank" href="https://www.saudi.gov.sa/">المنصة الوطنية السعودية</a></li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- الدكتور الربيعة -->
-      <article class="card">
-        <span class="pill">الطب الإنساني</span>
-        <h3 class="title">الدكتور عبدالله الربيعة</h3>
-        <div class="meta">رائد فصل التوائم السيامية</div>
-        <p class="story">
-أجرى مع فريقه الطبي عشرات العمليات الناجحة لفصل التوائم السيامية، مما جعل المملكة مركزًا عالميًا في هذا المجال.
-        </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://ngha.med.sa/english/MediaCenter/News/Pages/default.aspx">الشؤون الصحية بالحرس الوطني</a></li>
-            <li><a target="_blank" href="https://www.arabnews.com/node/2290126/saudi-arabia">Arab News — Dr. Al-Rabeeah profile</a></li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- عادل الجبير -->
-      <article class="card">
-        <span class="pill">الدبلوماسية</span>
-        <h3 class="title">عادل الجبير</h3>
-        <div class="meta">صوت المملكة في المحافل الدولية</div>
-        <p class="story">
-شغل منصب وزير الخارجية وسفير المملكة في واشنطن. عُرف بمهاراته في الدفاع عن سياسات السعودية على الساحة الدولية.
-        </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://www.britannica.com/biography/Adel-al-Jubeir">Britannica — Adel al-Jubeir</a></li>
-            <li><a target="_blank" href="https://www.arabnews.com/tags/adel-al-jubeir">Arab News — Adel Al-Jubeir</a></li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- غازي القصيبي -->
-      <article class="card">
-        <span class="pill">الأدب والإدارة</span>
-        <h3 class="title">غازي القصيبي</h3>
-        <div class="meta">الأديب الوزير</div>
-        <p class="story">
-جمع بين الأدب والسياسة والإدارة، وكتب روايات وقصائد مؤثرة، وشغل مناصب وزارية تركت أثرًا بارزًا.
-        </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://www.britannica.com/biography/Ghazi-Al-Gosaibi">Britannica — Ghazi Al Gosaibi</a></li>
-            <li><a target="_blank" href="https://www.arabnews.com/node/352730">Arab News — Ghazi Al-Gosaibi obituary</a></li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- الأميرة ريما -->
-      <article class="card">
-        <span class="pill">التمكين</span>
-        <h3 class="title">الأميرة ريما بنت بندر</h3>
-        <div class="meta">رائدة الدبلوماسية النسائية</div>
-        <p class="story">
-أول امرأة سعودية تُعيّن سفيرة في واشنطن عام 2019، لتكون رمزًا لتمكين المرأة في المجال الدبلوماسي.
-        </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://www.britannica.com/biography/Reema-bint-Bandar-Al-Saud">Britannica — Princess Reema bint Bandar</a></li>
-            <li><a target="_blank" href="https://www.arabnews.com/node/1583636/saudi-arabia">Arab News — appointment as ambassador</a></li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- سلطان بن سلمان -->
-      <article class="card">
-        <span class="pill">الفضاء</span>
-        <h3 class="title">الأمير سلطان بن سلمان</h3>
-        <div class="meta">أول رائد فضاء عربي مسلم</div>
-        <p class="story">
-في يونيو 1985 شارك في مهمة مكوك الفضاء ديسكفري، ليصبح أول عربي ومسلم يصعد إلى الفضاء.
-        </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://www.nasa.gov/history/40-years-of-sts-51-g-prince-sultan-bin-salman">NASA — STS-51-G mission</a></li>
-            <li><a target="_blank" href="https://www.britannica.com/biography/Sultan-bin-Salman-Al-Saud">Britannica — Sultan bin Salman</a></li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- سالم الدوسري -->
-      <article class="card">
-        <span class="pill">الرياضة</span>
-        <h3 class="title">سالم الدوسري</h3>
-        <div class="meta">نجم الأخضر</div>
-        <p class="story">
-أحرز هدف الفوز التاريخي ضد الأرجنتين في كأس العالم 2022، وقاد المنتخب السعودي لتسجيل إنجاز عالمي سيبقى في الذاكرة.
-        </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://www.fifa.com/fifaplus/en/matches/match-centre/mensworldcup/qatar-2022/match/400235467">FIFA — Saudi Arabia vs Argentina match report</a></li>
-            <li><a target="_blank" href="https://www.bbc.com/sport/football/63711607">BBC Sport — Saudi Arabia shock Argentina</a></li>
-          </ul>
-        </div>
-      </article>
-
-      <!-- ريانة برناوي -->
-      <article class="card">
-        <span class="pill">الفضاء</span>
-        <h3 class="title">ريانة برناوي</h3>
-        <div class="meta">أول سعودية في الفضاء</div>
-        <p class="story">
-في مايو 2023 أصبحت أول سعودية تصل محطة الفضاء الدولية ضمن مهمة Ax-2، مجسدة طموح المملكة في البحث العلمي.
-        </p>
-        <div class="sources">
-          <h4>المصادر:</h4>
-          <ul>
-            <li><a target="_blank" href="https://ssa.gov.sa/en/news/saudi-astronauts-mission-to-space-will-launch-on-the-21st-of-may-2023/">Saudi Space Authority</a></li>
-            <li><a target="_blank" href="https://www.nasa.gov/news-release/nasa-partners-clear-axioms-second-private-astronaut-mission-crew/">NASA — Axiom-2 crew</a></li>
-          </ul>
-        </div>
-      </article>
-
+      </div>
     </div>
+
+    <!-- الملك سلمان -->
+    <div class="accordion">
+      <div class="accordion-header">الملك سلمان بن عبدالعزيز — خادم الحرمين الشريفين</div>
+      <div class="accordion-content">
+        <p>
+الملك سلمان وُلد عام 1935 وتولّى الحكم في 2015. قبل الملك كان أميرًا للرياض لأكثر من 50 عامًا، شهدت خلالها العاصمة قفزات عمرانية واقتصادية كبرى. 
+في عهده الملكي تمّت رعاية الحرمين بتوسعات ضخمة، وأُطلقت إصلاحات إدارية وتشريعية واسعة. عُرف بمتابعته الدقيقة لشؤون الدولة وبُعد نظره في القضايا الإقليمية والدولية.
+        </p>
+      </div>
+    </div>
+
+    <!-- د. عبدالله الربيعة -->
+    <div class="accordion">
+      <div class="accordion-header">الدكتور عبدالله الربيعة — الطب الإنساني</div>
+      <div class="accordion-content">
+        <p>
+يُعد د. عبدالله الربيعة من أبرز الأطباء في العالم بمجال جراحة الأطفال وفصل التوائم السيامية. وُلد عام 1955 في الرياض، وبدأ مسيرته الطبية في كندا.
+قاد فريقًا طبيًا سعوديًا لفصل أكثر من 50 حالة توائم سيامية من دول مختلفة، لتصبح المملكة مرجعًا عالميًا في هذا التخصص. 
+يشغل منصب المشرف العام على مركز الملك سلمان للإغاثة والأعمال الإنسانية، ويقدّم الدعم الطبي والإنساني للدول المتضررة حول العالم.
+        </p>
+      </div>
+    </div>
+
+    <!-- عادل الجبير -->
+    <div class="accordion">
+      <div class="accordion-header">عادل الجبير — الدبلوماسية السعودية</div>
+      <div class="accordion-content">
+        <p>
+عادل الجبير من أبرز الوجوه الدبلوماسية السعودية. وُلد عام 1962 وتقلّد منصب وزير الخارجية (2015-2018)، وكان قبلها سفير المملكة في واشنطن.
+تميّز بقدراته الخطابية والإعلامية، ودافع عن مواقف المملكة في المحافل الدولية، خصوصًا خلال فترات حساسة. ساهم في تعزيز العلاقات الدولية وإبراز صورة السعودية الحديثة أمام العالم.
+        </p>
+      </div>
+    </div>
+
+    <!-- غازي القصيبي -->
+    <div class="accordion">
+      <div class="accordion-header">غازي القصيبي — الأديب الوزير</div>
+      <div class="accordion-content">
+        <p>
+غازي القصيبي (1940-2010) شخصية استثنائية جمعت بين الأدب والسياسة والإدارة. تقلّد مناصب وزارية مهمة مثل الصحة والعمل، وكان سفيرًا للمملكة في البحرين وبريطانيا.
+أصدر روايات ودواوين شعرية أثرت المكتبة العربية مثل «شقة الحرية» و«الوزير المرافق». ترك إرثًا أدبيًا وفكريًا، إضافة إلى بصماته في الإصلاح الإداري وتطوير الموارد البشرية في المملكة.
+        </p>
+      </div>
+    </div>
+
+    <!-- الأميرة ريما -->
+    <div class="accordion">
+      <div class="accordion-header">الأميرة ريما بنت بندر — التمكين النسائي</div>
+      <div class="accordion-content">
+        <p>
+الأميرة ريما بنت بندر بن سلطان، وُلدت عام 1975، وتُعتبر من أبرز الشخصيات النسائية في المملكة. تولّت منصب سفيرة السعودية في واشنطن عام 2019، كأول امرأة سعودية في هذا المنصب.
+عملت سابقًا في مجالات الرياضة والتمكين الاجتماعي، وأسهمت في دعم مشاركة المرأة في الأنشطة العامة. أصبحت رمزًا لمرحلة جديدة تعكس مكانة المرأة السعودية ودورها في المجتمع والدبلوماسية.
+        </p>
+      </div>
+    </div>
+
+    <!-- سلطان بن سلمان -->
+    <div class="accordion">
+      <div class="accordion-header">الأمير سلطان بن سلمان — أول رائد فضاء عربي</div>
+      <div class="accordion-content">
+        <p>
+الأمير سلطان بن سلمان بن عبدالعزيز وُلد عام 1956. في يونيو 1985 شارك في رحلة مكوك الفضاء ديسكفري التابعة لناسا، ليصبح أول عربي ومسلم يصعد إلى الفضاء.
+بعد عودته، ساهم في تطوير السياحة والتراث الوطني من خلال رئاسته لهيئة السياحة والآثار. يشغل اليوم أدوارًا استشارية في مشروعات استراتيجية، ويمثل مصدر إلهام للأجيال.
+        </p>
+      </div>
+    </div>
+
+    <!-- سالم الدوسري -->
+    <div class="accordion">
+      <div class="accordion-header">سالم الدوسري — نجم الأخضر</div>
+      <div class="accordion-content">
+        <p>
+سالم الدوسري (مواليد 1991) من أبرز لاعبي كرة القدم السعوديين. يلعب في مركز الجناح مع نادي الهلال والمنتخب الوطني. 
+أحرز هدف الفوز التاريخي ضد الأرجنتين في كأس العالم 2022، في مباراة ستبقى في الذاكرة الرياضية العالمية. 
+ساهم في إنجازات نادي الهلال الآسيوية والمحلية، ويُعتبر رمزًا لجيل رياضي سعودي طموح.
+        </p>
+      </div>
+    </div>
+
+    <!-- ريانة برناوي -->
+    <div class="accordion">
+      <div class="accordion-header">ريانة برناوي — أول سعودية في الفضاء</div>
+      <div class="accordion-content">
+        <p>
+ريانة برناوي (مواليد 1988) باحثة سعودية متخصصة في العلوم الحيوية. في 21 مايو 2023 انطلقت إلى محطة الفضاء الدولية ضمن مهمة Axiom-2، لتصبح أول سعودية في الفضاء.
+أجرت تجارب متقدمة في بيئة الجاذبية الصغرى على الخلايا والأنسجة، وأسهمت في إلهام الشباب السعودي لدخول مجالات الفضاء والبحث العلمي.
+        </p>
+      </div>
+    </div>
+
   </div>
 
   <footer>
-    © إعداد تعليمي وطني — قصص حقيقية عن شخصيات سعودية بارزة مع مصادر موثوقة
+    © إعداد وطني تعليمي — نبذات موسّعة عن شخصيات سعودية بارزة
   </footer>
+
+  <script>
+    const headers = document.querySelectorAll(".accordion-header");
+    headers.forEach(h=>{
+      h.addEventListener("click", ()=>{
+        h.classList.toggle("active");
+        const content = h.nextElementSibling;
+        if(content.style.maxHeight){
+          content.style.maxHeight = null;
+          content.classList.remove("open");
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          content.classList.add("open");
+        }
+      });
+    });
+  </script>
 </body>
 </html>
