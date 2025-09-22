@@ -13,10 +13,9 @@
   .flag{width:200px;display:block;margin:0 auto 12px}
   h1{margin:0;font-size:26px}
   p.lead{margin:2px 0 0;color:#cfe9dc;font-size:13px}
-  .container{max-width:500px;margin:auto;padding:14px}
+  .container{max-width:800px;margin:auto;padding:14px}
   .grid{display:grid;grid-template-columns:1fr;gap:16px}
-  .card{display:block;text-decoration:none;color:inherit;background:var(--card);
-    border:1px solid var(--edge);border-radius:12px;padding:14px;transition:.2s}
+  .card{background:var(--card);border:1px solid var(--edge);border-radius:12px;padding:14px;transition:.2s}
   .card:hover{transform:translateY(-2px);box-shadow:0 4px 15px rgba(0,0,0,.3)}
   .pill{display:inline-block;background:#0c3b23;color:#c6f5df;border:1px solid #135b36;
     border-radius:999px;padding:2px 8px;font-size:11px}
@@ -25,6 +24,9 @@
   .title{font-size:18px;margin:0}
   .meta{font-size:12px;color:#cfe9dc}
   .story{font-size:14px;text-align:justify;margin-top:6px}
+  .link{margin-top:8px;font-size:13px}
+  .link a{color:#9fe8c9;text-decoration:none}
+  .link a:hover{text-decoration:underline}
   footer{text-align:center;font-size:11px;color:#cbead9;margin:20px 0 10px}
 </style>
 </head>
@@ -40,94 +42,103 @@
   <div class="grid">
 
     <!-- الملك سلمان -->
-    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/4/4b/King_Salman_bin_Abdulaziz_Al_Saud_May_2023.jpg" target="_blank">
+    <div class="card">
       <span class="pill">خادم الحرمين</span>
       <div class="header">
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/King_Salman_bin_Abdulaziz_Al_Saud_May_2023.jpg">
+        <img class="photo" src="salman.jpg" alt="الملك سلمان">
         <div><h3 class="title">الملك سلمان بن عبدالعزيز</h3><div class="meta">ملك الحزم والعزم</div></div>
       </div>
       <p class="story">قضى أكثر من 50 عامًا أميرًا للرياض ثم تولى الحكم عام 2015 وأطلق إصلاحات وتنمية شاملة ورعى توسعات الحرمين.</p>
-    </a>
+      <p class="link"><a href="salman.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
     <!-- محمد بن سلمان -->
-    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/b/b0/Mohammed_bin_Salman_2023_cropped.jpg" target="_blank">
+    <div class="card">
       <span class="pill">ولي العهد</span>
       <div class="header">
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Mohammed_bin_Salman_2023_cropped.jpg">
+        <img class="photo" src="mbs.jpg" alt="محمد بن سلمان">
         <div><h3 class="title">محمد بن سلمان</h3><div class="meta">مهندس رؤية 2030</div></div>
       </div>
       <p class="story">أطلق رؤية 2030 ومشروعات كبرى مثل نيوم وقاد إصلاحات اقتصادية واجتماعية كبرى.</p>
-    </a>
+      <p class="link"><a href="mbs.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
     <!-- عبدالله الربيعة -->
-    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/2/2a/Abdullah_Al_Rabeeah_2019.jpg" target="_blank">
+    <div class="card">
       <span class="pill">الطب الإنساني</span>
       <div class="header">
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Abdullah_Al_Rabeeah_2019.jpg">
+        <img class="photo" src="rabiah.jpg" alt="عبدالله الربيعة">
         <div><h3 class="title">عبدالله الربيعة</h3><div class="meta">رائد فصل التوائم</div></div>
       </div>
       <p class="story">قاد أكثر من 50 عملية فصل توائم ناجحة وجعل المملكة مركزًا عالميًا، ويشرف على مركز الملك سلمان للإغاثة.</p>
-    </a>
+      <p class="link"><a href="rabiah.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
     <!-- عادل الجبير -->
-    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/4/4d/Adel_al-Jubeir_2018.jpg" target="_blank">
+    <div class="card">
       <span class="pill">الدبلوماسية</span>
       <div class="header">
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Adel_al-Jubeir_2018.jpg">
+        <img class="photo" src="jubair.jpg" alt="عادل الجبير">
         <div><h3 class="title">عادل الجبير</h3><div class="meta">صوت المملكة دوليًا</div></div>
       </div>
       <p class="story">شغل مناصب بارزة منها سفير في واشنطن ووزير الخارجية ودافع عن مواقف المملكة عالميًا.</p>
-    </a>
+      <p class="link"><a href="jubair.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
     <!-- غازي القصيبي -->
-    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/3/34/Ghazi_Algosaibi.jpg" target="_blank">
+    <div class="card">
       <span class="pill">الأدب والإدارة</span>
       <div class="header">
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Ghazi_Algosaibi.jpg">
+        <img class="photo" src="qasibi.jpg" alt="غازي القصيبي">
         <div><h3 class="title">غازي القصيبي</h3><div class="meta">الأديب الوزير</div></div>
       </div>
       <p class="story">جمع بين الأدب والسياسة وتولى وزارات وسفارات وترك إرثًا أدبيًا وإداريًا بارزًا.</p>
-    </a>
+      <p class="link"><a href="qasibi.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
     <!-- الأميرة عفت -->
-    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/1/16/Iffat_Al_Thunayan.jpg" target="_blank">
+    <div class="card">
       <span class="pill">التعليم النسائي</span>
       <div class="header">
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/1/16/Iffat_Al_Thunayan.jpg">
+        <img class="photo" src="iffat.jpg" alt="الأميرة عفت">
         <div><h3 class="title">الأميرة عفت</h3><div class="meta">رائدة تعليم المرأة</div></div>
       </div>
       <p class="story">زوجة الملك فيصل وأول من أسس مدارس للبنات، دعمت تعليم المرأة وفتحت آفاقًا جديدة للفتيات.</p>
-    </a>
+      <p class="link"><a href="iffat.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
     <!-- ماهر العتيبي -->
-    <a class="card" href="https://al-marsd.com/wp-content/uploads/2024/08/maher.png" target="_blank">
+    <div class="card">
       <span class="pill">البطولة المدنية</span>
       <div class="header">
-        <img class="photo" src="https://al-marsd.com/wp-content/uploads/2024/08/maher.png">
+        <img class="photo" src="maher.jpg" alt="ماهر العتيبي">
         <div><h3 class="title">ماهر العتيبي</h3><div class="meta">أنقذ محطة وقود</div></div>
       </div>
       <p class="story">قاد شاحنة مشتعلة بعيدًا عن محطة وقود وأنقذ عشرات الأرواح رغم إصابته الخطيرة.</p>
-    </a>
+      <p class="link"><a href="maher.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
     <!-- ماجد عبدالله -->
-    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/d/d2/Majed_Abdullah_in_2012.jpg" target="_blank">
+    <div class="card">
       <span class="pill">الرياضة</span>
       <div class="header">
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Majed_Abdullah_in_2012.jpg">
+        <img class="photo" src="majed.jpg" alt="ماجد عبدالله">
         <div><h3 class="title">ماجد عبدالله</h3><div class="meta">أسطورة الكرة السعودية</div></div>
       </div>
       <p class="story">هداف السعودية التاريخي وقائد المنتخب والنصر وحقق بطولات آسيوية ومحلية عديدة.</p>
-    </a>
+      <p class="link"><a href="majed.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
     <!-- فياض الرويلي -->
-    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/4/47/Fayyad_Al-Ruwaili.jpg" target="_blank">
+    <div class="card">
       <span class="pill">القيادة العسكرية</span>
       <div class="header">
-        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Fayyad_Al-Ruwaili.jpg">
+        <img class="photo" src="ruwaili.jpg" alt="فياض الرويلي">
         <div><h3 class="title">فياض الرويلي</h3><div class="meta">رئيس الأركان</div></div>
       </div>
       <p class="story">طيار مقاتل سابق يشغل منصب رئيس الأركان منذ 2018 وقاد تطوير قدرات الجيش السعودي.</p>
-    </a>
+      <p class="link"><a href="ruwaili.jpg" target="_blank">📷 رابط الصورة</a></p>
+    </div>
 
   </div>
 </div>
