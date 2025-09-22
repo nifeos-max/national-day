@@ -1,164 +1,139 @@
+
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>عزّنا بفخرِنا — شخصيات سعودية بارزة</title>
-  <style>
-    :root{
-      --green:#006c35; --dark:#034a24; --light:#f5fff9; --card:#07391c; --edge:#0e3b22;
-    }
-    *{box-sizing:border-box}
-    body{margin:0;padding:0;background:linear-gradient(180deg,#022010,#034a24);
-      color:var(--light);font-family:"Noto Naskh Arabic","Amiri",Tahoma,Arial,sans-serif;line-height:1.9}
-    header{text-align:center;padding:20px 10px;border-bottom:2px solid var(--dark)}
-    .flag{width:320px;display:block;margin:0 auto 16px auto}
-    h1{margin:0;font-size:38px}
-    p.lead{margin:6px 0 0 0;color:#cfe9dc}
-    .container{max-width:1200px;margin:auto;padding:20px}
-    .grid{
-      display:grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap:20px;
-    }
-    @media(max-width:900px){
-      .grid{grid-template-columns: repeat(2, 1fr);}
-    }
-    @media(max-width:600px){
-      .grid{grid-template-columns: 1fr;}
-    }
-    .card{background:var(--card);border:1px solid var(--edge);border-radius:12px;
-      padding:18px;transition:.2s}
-    .card:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,.3)}
-    .pill{display:inline-block;background:#0c3b23;color:#c6f5df;border:1px solid #135b36;
-      border-radius:999px;padding:3px 10px;font-size:12px}
-    .title{font-size:20px;margin:8px 0 4px 0}
-    .meta{font-size:13px;color:#cfe9dc;margin-bottom:8px}
-    .story{white-space:pre-line;text-align:justify}
-    footer{margin-top:28px;text-align:center;font-size:12px;color:#cbead9}
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>عزّنا بفخرِنا — شخصيات سعودية بارزة</title>
+<style>
+  :root{
+    --green:#006c35; --dark:#034a24; --light:#f5fff9;
+    --card:#07391c; --edge:#0e3b22;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;padding:0;background:linear-gradient(180deg,#022010,#034a24);
+    color:var(--light);font-family:"Noto Naskh Arabic","Amiri",Tahoma,Arial,sans-serif;line-height:1.9
+  }
+  header{text-align:center;padding:14px 10px;border-bottom:2px solid var(--dark)}
+  .flag{width:200px;display:block;margin:0 auto 12px}
+  h1{margin:0;font-size:26px}
+  p.lead{margin:2px 0 0;color:#cfe9dc;font-size:13px}
+  .container{max-width:1200px;margin:auto;padding:20px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:600px){.grid{grid-template-columns:1fr}}
+  .card{
+    display:block;text-decoration:none;color:inherit;
+    background:var(--card);border:1px solid var(--edge);border-radius:12px;
+    padding:16px;transition:.2s
+  }
+  .card:hover{transform:translateY(-3px);box-shadow:0 8px 25px rgba(0,0,0,.3)}
+  .pill{display:inline-block;background:#0c3b23;color:#c6f5df;
+    border:1px solid #135b36;border-radius:999px;padding:2px 8px;font-size:12px}
+  .header{display:flex;align-items:center;gap:10px;margin-top:6px}
+  .photo{width:50px;height:50px;border-radius:50%;object-fit:cover;border:2px solid #135b36}
+  .title{font-size:20px;margin:0}
+  .meta{font-size:13px;color:#cfe9dc}
+  .story{font-size:14px;text-align:justify;margin-top:6px}
+  footer{margin-top:28px;text-align:center;font-size:12px;color:#cbead9}
+</style>
 </head>
 <body>
-  <header>
-    <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg" alt="علم المملكة العربية السعودية"/>
-    <h1>عزّنا بفخرِنا</h1>
-    <p class="lead"> شخصيات سعودية بارزة</p>
-  </header>
 
-  <div class="container">
-    <div class="grid">
+<header>
+  <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg">
+  <h1>عزّنا بفخرِنا</h1>
+  <p class="lead">شخصيات سعودية بارزة</p>
+</header>
 
-      <!-- الملك سلمان -->
-      <div class="card">
-        <span class="pill">خادم الحرمين</span>
-        <h3 class="title">الملك سلمان بن عبدالعزيز</h3>
-        <div class="meta">ملك الحزم والعزم</div>
-        <p class="story">
-الملك سلمان بن عبدالعزيز آل سعود، وُلد عام 1935، وتولّى الحكم في يناير 2015. قضى أكثر من خمسة عقود أميرًا للرياض، حيث أشرف على تحويل العاصمة السعودية من مدينة تقليدية إلى حاضرة حديثة ومركز إداري وتجاري رئيسي. 
-في فترة حكمه، أطلق إصلاحات إدارية وتشريعية واسعة، وأشرف على توسعات تاريخية للحرمين الشريفين، مع تعزيز التنمية الاقتصادية والاجتماعية في المملكة. 
-يُعرف الملك سلمان بحكمته وحرصه على استقرار المنطقة، إضافة إلى دعمه للعمل الإنساني والإغاثي في العالم الإسلامي عبر مبادرات ومؤسسات متعددة.
-        </p>
+<div class="container">
+  <div class="grid">
+
+    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/4/4b/King_Salman_bin_Abdulaziz_Al_Saud_May_2023.jpg" target="_blank">
+      <span class="pill">خادم الحرمين</span>
+      <div class="header">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/4/4b/King_Salman_bin_Abdulaziz_Al_Saud_May_2023.jpg">
+        <div><h3 class="title">الملك سلمان بن عبدالعزيز</h3><div class="meta">ملك الحزم والعزم</div></div>
       </div>
+      <p class="story">قضى أكثر من 50 عامًا أميرًا للرياض ثم تولى الحكم عام 2015 وأطلق إصلاحات وتنمية شاملة ورعى توسعات الحرمين.</p>
+    </a>
 
-      <!-- محمد بن سلمان -->
-      <div class="card">
-        <span class="pill">ولي العهد</span>
-        <h3 class="title">محمد بن سلمان بن عبدالعزيز</h3>
-        <div class="meta">مهندس التحول الوطني</div>
-        <p class="story">
-الأمير محمد بن سلمان وُلد عام 1985، وهو ولي العهد ورئيس مجلس الوزراء السعودي. برز عالميًا بوصفه مهندس «رؤية السعودية 2030» التي أُطلقت عام 2016، وتهدف إلى تنويع الاقتصاد وتقليل الاعتماد على النفط. 
-أطلق مشروعات عملاقة مثل «نيوم»، و«ذا لاين»، ومبادرات بيئية مثل «مبادرة السعودية الخضراء». 
-كما عزّز مكانة المملكة في الاقتصاد العالمي من خلال استثمارات ضخمة، وعُرف بإصلاحاته الاجتماعية التي فتحت آفاقًا جديدة للشباب والمرأة، مما جعل السعودية أكثر انفتاحًا على الابتكار والحداثة.
-        </p>
+    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/4/47/Fayyad_Al-Ruwaili.jpg" target="_blank">
+      <span class="pill">القيادة العسكرية</span>
+      <div class="header">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/4/47/Fayyad_Al-Ruwaili.jpg">
+        <div><h3 class="title">فياض الرويلي</h3><div class="meta">رئيس الأركان</div></div>
       </div>
+      <p class="story">طيار مقاتل سابق يشغل منصب رئيس الأركان منذ 2018 وقاد تطوير قدرات الجيش السعودي.</p>
+    </a>
 
-      <!-- الدكتور عبدالله الربيعة -->
-      <div class="card">
-        <span class="pill">الطب الإنساني</span>
-        <h3 class="title">الدكتور عبدالله الربيعة</h3>
-        <div class="meta">رائد فصل التوائم السيامية</div>
-        <p class="story">
-الدكتور عبدالله الربيعة، وُلد عام 1955، يُعتبر من أبرز الجراحين السعوديين المتخصصين في طب الأطفال. اشتهر عالميًا بقيادته فريقًا طبيًا سعوديًا أجرى أكثر من خمسين عملية فصل توائم سيامية ناجحة، قادمة من مختلف أنحاء العالم. 
-يشغل منصب المشرف العام على مركز الملك سلمان للإغاثة والأعمال الإنسانية، حيث يقود جهود المملكة في تقديم المساعدات الطبية والإنسانية للدول المتضررة من النزاعات والكوارث. 
-ترك بصمة مميزة في مسيرة الطب السعودي، وأصبح رمزًا للعطاء الإنساني والمهني على المستوى الدولي.
-        </p>
+    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/b/b0/Mohammed_bin_Salman_2023_cropped.jpg" target="_blank">
+      <span class="pill">ولي العهد</span>
+      <div class="header">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Mohammed_bin_Salman_2023_cropped.jpg">
+        <div><h3 class="title">محمد بن سلمان</h3><div class="meta">مهندس رؤية 2030</div></div>
       </div>
+      <p class="story">أطلق رؤية 2030 ومشروعات كبرى مثل نيوم وقاد إصلاحات اقتصادية واجتماعية كبرى.</p>
+    </a>
 
-      <!-- عادل الجبير -->
-      <div class="card">
-        <span class="pill">الدبلوماسية</span>
-        <h3 class="title">عادل الجبير</h3>
-        <div class="meta">صوت المملكة في المحافل الدولية</div>
-        <p class="story">
-عادل الجبير، وُلد عام 1962، أحد أبرز الشخصيات الدبلوماسية في المملكة. عمل سفيرًا للسعودية في الولايات المتحدة، ثم تولّى وزارة الخارجية في فترة حرجة (2015–2018). 
-تميّز بخطابه الإعلامي الواضح والقدرة على الدفاع عن مواقف المملكة في الساحات الدولية. 
-واصل مسيرته لاحقًا وزير دولة للشؤون الخارجية، ومثّل المملكة في قضايا إقليمية ودولية حساسة، مما جعله وجهًا بارزًا للدبلوماسية السعودية الحديثة.
-        </p>
+    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/2/2a/Abdullah_Al_Rabeeah_2019.jpg" target="_blank">
+      <span class="pill">الطب الإنساني</span>
+      <div class="header">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Abdullah_Al_Rabeeah_2019.jpg">
+        <div><h3 class="title">عبدالله الربيعة</h3><div class="meta">رائد فصل التوائم</div></div>
       </div>
+      <p class="story">قاد أكثر من 50 عملية فصل توائم ناجحة وجعل المملكة مركزًا عالميًا، ويشرف على مركز الملك سلمان للإغاثة.</p>
+    </a>
 
-      <!-- غازي القصيبي -->
-      <div class="card">
-        <span class="pill">الأدب والإدارة</span>
-        <h3 class="title">غازي القصيبي</h3>
-        <div class="meta">الأديب الوزير</div>
-        <p class="story">
-غازي القصيبي (1940–2010) أديب وسياسي وإداري سعودي بارز. تقلّد مناصب وزارية مهمة مثل الصحة والعمل والمياه، وكان سفيرًا للمملكة في البحرين ثم بريطانيا. 
-أثرى المكتبة العربية بروايات ودواوين شعرية مثل «شقة الحرية» و«العصفورية»، وجمع بين الرؤية الفكرية العميقة واللغة الأدبية المؤثرة. 
-كان من الشخصيات التي مثّلت نموذج المثقف المسؤول، تاركًا إرثًا من الإصلاح الإداري والإبداع الأدبي الذي ما زال مؤثرًا حتى اليوم.
-        </p>
+    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/4/4d/Adel_al-Jubeir_2018.jpg" target="_blank">
+      <span class="pill">الدبلوماسية</span>
+      <div class="header">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Adel_al-Jubeir_2018.jpg">
+        <div><h3 class="title">عادل الجبير</h3><div class="meta">صوت المملكة دوليًا</div></div>
       </div>
+      <p class="story">شغل مناصب بارزة منها سفير في واشنطن ووزير الخارجية ودافع عن مواقف المملكة عالميًا.</p>
+    </a>
 
-      <!-- الأميرة ريما -->
-      <div class="card">
-        <span class="pill">التمكين</span>
-        <h3 class="title">الأميرة ريما بنت بندر</h3>
-        <div class="meta">رائدة الدبلوماسية النسائية</div>
-        <p class="story">
-الأميرة ريما بنت بندر بن سلطان، وُلدت عام 1975، شخصية بارزة في تمكين المرأة السعودية. في 2019، أصبحت أول امرأة سعودية تُعيّن سفيرة لدى الولايات المتحدة. 
-عملت سابقًا في مجالات الرياضة والمبادرات الاجتماعية، حيث أسهمت في تعزيز مشاركة المرأة في الرياضة والعمل التطوعي. 
-تُعتبر من أبرز الوجوه الدبلوماسية الحديثة التي تعكس صورة المملكة الجديدة، وتؤكد على الحضور الفاعل للمرأة السعودية في الساحة الدولية.
-        </p>
+    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/3/34/Ghazi_Algosaibi.jpg" target="_blank">
+      <span class="pill">الأدب والإدارة</span>
+      <div class="header">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Ghazi_Algosaibi.jpg">
+        <div><h3 class="title">غازي القصيبي</h3><div class="meta">الأديب الوزير</div></div>
       </div>
+      <p class="story">جمع بين الأدب والسياسة وتولى وزارات وسفارات وترك إرثًا أدبيًا وإداريًا بارزًا.</p>
+    </a>
 
-      <!-- سلطان بن سلمان -->
-      <div class="card">
-        <span class="pill">الفضاء</span>
-        <h3 class="title">الأمير سلطان بن سلمان</h3>
-        <div class="meta">أول رائد فضاء عربي مسلم</div>
-        <p class="story">
-الأمير سلطان بن سلمان، وُلد عام 1956، دخل التاريخ كأول عربي ومسلم يصعد إلى الفضاء، عندما شارك في رحلة مكوك الفضاء الأمريكي ديسكفري عام 1985 ضمن بعثة وكالة ناسا. 
-بعد عودته، تولّى رئاسة الهيئة العامة للسياحة والتراث الوطني، وأسهم في الحفاظ على المواقع التاريخية وتعزيز السياحة الداخلية. 
-اليوم يشكّل قدوة للأجيال السعودية في الطموح والإنجاز، ودوره يعكس تميّز المملكة في مجالات تتجاوز حدود الأرض.
-        </p>
+    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/1/16/Iffat_Al_Thunayan.jpg" target="_blank">
+      <span class="pill">التعليم النسائي</span>
+      <div class="header">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/1/16/Iffat_Al_Thunayan.jpg">
+        <div><h3 class="title">الأميرة عفت</h3><div class="meta">رائدة تعليم المرأة</div></div>
       </div>
+      <p class="story">زوجة الملك فيصل وأول من أسس مدارس للبنات، دعمت تعليم المرأة وفتحت آفاقًا جديدة للفتيات.</p>
+    </a>
 
-      <!-- سالم الدوسري -->
-      <div class="card">
-        <span class="pill">الرياضة</span>
-        <h3 class="title">سالم الدوسري</h3>
-        <div class="meta">نجم الأخضر</div>
-        <p class="story">
-سالم الدوسري، وُلد عام 1991، لاعب كرة قدم سعودي دولي ونجم نادي الهلال. عُرف بمهاراته الاستثنائية كجناح هجومي وسرعته وقدرته على التسجيل في المباريات الحاسمة. 
-سجل هدف الفوز التاريخي ضد الأرجنتين في كأس العالم 2022، ليخلّد اسمه في الذاكرة الرياضية العالمية. 
-ساهم بشكل كبير في إنجازات الهلال على المستويين المحلي والآسيوي، ويُعتبر من أبرز رموز الجيل الحالي الذي يمثل طموح الكرة السعودية.
-        </p>
+    <a class="card" href="https://al-marsd.com/wp-content/uploads/2024/08/maher.png" target="_blank">
+      <span class="pill">البطولة المدنية</span>
+      <div class="header">
+        <img class="photo" src="https://al-marsd.com/wp-content/uploads/2024/08/maher.png">
+        <div><h3 class="title">ماهر العتيبي</h3><div class="meta">أنقذ محطة وقود</div></div>
       </div>
+      <p class="story">قاد شاحنة مشتعلة بعيدًا عن محطة وقود وأنقذ عشرات الأرواح رغم إصابته الخطيرة.</p>
+    </a>
 
-      <!-- ريانة برناوي -->
-      <div class="card">
-        <span class="pill">الفضاء</span>
-        <h3 class="title">ريانة برناوي</h3>
-        <div class="meta">أول سعودية في الفضاء</div>
-        <p class="story">
-ريانة برناوي، وُلدت عام 1988، باحثة سعودية متخصصة في العلوم الحيوية. في مايو 2023، انطلقت إلى محطة الفضاء الدولية ضمن مهمة Axiom-2 لتصبح أول سعودية في الفضاء. 
-أجرت تجارب علمية متقدمة في بيئة الجاذبية الصغرى على الخلايا والأنسجة، وأسهمت في نقل صورة مشرّفة عن المرأة السعودية في مجالات البحث العلمي والفضاء. 
-أصبحت رمزًا للجيل الجديد الذي يرفع طموحات المملكة إلى آفاق أبعد من الأرض.
-        </p>
+    <a class="card" href="https://upload.wikimedia.org/wikipedia/commons/d/d2/Majed_Abdullah_in_2012.jpg" target="_blank">
+      <span class="pill">الرياضة</span>
+      <div class="header">
+        <img class="photo" src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Majed_Abdullah_in_2012.jpg">
+        <div><h3 class="title">ماجد عبدالله</h3><div class="meta">أسطورة الكرة السعودية</div></div>
       </div>
+      <p class="story">هداف السعودية التاريخي وقائد المنتخب والنصر وحقق بطولات آسيوية ومحلية عديدة.</p>
+    </a>
 
-    </div>
   </div>
+</div>
 
-  <footer>
-    © إعداد وطني تعليمي — شخصيات سعودية بارزة
-  </footer>
+<footer>© إعداد وطني تعليمي — شخصيات سعودية بارزة</footer>
+
 </body>
 </html>
